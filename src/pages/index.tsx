@@ -14,6 +14,7 @@ declare global {
 
 const Index: NextPage = () => {
   return (
+   <> 
     <div>
       <Head>
         <title>Forever</title>
@@ -24,6 +25,7 @@ const Index: NextPage = () => {
         <Home></Home>
       </Provider>
     </div>
+    </> 
   )
 }
 
