@@ -29,9 +29,11 @@ const Home: NextPage = () => {
 
   return (
     <div>
+      <>
 			<NavBar></NavBar>
 			<Header></Header>
 			<Projects files={filesMetadata} ></Projects>
+      </>
     </div>
   )
 }

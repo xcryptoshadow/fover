@@ -15,7 +15,7 @@ import { IError } from '../../interfaces/ierror.interface';
 
 const { useBreakpoint } = Grid;
 
-export const NavBar: NextPage = () => {
+export const NavBar: NextPage = ()  => {
 
 	const onError = (err: IError) => {
     notification.error({
@@ -31,6 +31,7 @@ export const NavBar: NextPage = () => {
 	const connected = connectionState === ConnectionState.CONNECTED;
 
 	return (
+		<>
 		<Disclosure as="nav">
 			{({ open }) => (
 				<>
@@ -72,5 +73,6 @@ export const NavBar: NextPage = () => {
 				</>
 			)}
 		</Disclosure>
+		</>
 	)
 }
