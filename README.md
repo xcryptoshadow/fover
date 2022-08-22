@@ -8,12 +8,12 @@
 ![Tests](https://github.com/MCarlomagno/forever/actions/workflows/truffle.yml/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Storage web application running on top of Rinkeby testnet that uses IPFS protocol for storing files in an open and decentralized way.
+Storage web application running on top of polygon testnet that uses IPFS protocol for storing files in an open and decentralized way.
 
 ## How it works
 
 #### Architecture
-This is a dApp or decentralized application with a simple frontend connected with a set of backend services composed by a Smart Contract deployed to Rinkeby testnet and a storage service using IPFS.
+This is a dApp or decentralized application with a simple frontend connected with a set of backend services composed by a Smart Contract deployed to polygon testnet and a storage service using IPFS.
 
 The **Smart Contract** role is to store basic information about the users and files stored in the app. 
 
@@ -78,10 +78,10 @@ In case you're running Ganache.
 truffle migrate --network development
 ```
 
-In case you prefer to debug against a deployed Smart Contract on rinkeby.
+In case you prefer to debug against a deployed Smart Contract on mumbai.
 
 ```bash
-truffle migrate --network rinkeby
+truffle migrate --network mumbai
 ```
 
 #### Running frontend application
