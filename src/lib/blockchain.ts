@@ -4,7 +4,7 @@ import Web3 from "web3";
 import Forever from '../../public/abis/Forever.json'
 import PersssistLocal from '../../abis/Forever.json'
 import { NetwokIds } from "../constants/networks";
-import { PersssistFile } from "../interfaces/forever--file.interface";
+import { PersssistFile } from "../interfaces/forever-file.interface";
 
 
 export class AppBlockchain {

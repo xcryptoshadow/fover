@@ -1,6 +1,6 @@
 import { create, IPFSHTTPClient } from "ipfs-http-client";
 import { IFile } from "../interfaces/ifile.interface";
-import { PersssistFile } from "../interfaces/forever--file.interface";
+import { PersssistFile } from "../interfaces/forever-file.interface";
 
 // here we handle the ipfs functionality. 
 export class AppStorage {

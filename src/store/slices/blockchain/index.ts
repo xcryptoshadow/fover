@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { IFile } from '../../../interfaces/ifile.interface';
-import { PersssistFile } from '../../../interfaces/forever--file.interface';
+import { PersssistFile } from '../../../interfaces/forever-file.interface';
 import { AppBlockchain } from '../../../lib/blockchain';
 import { AppStorage } from '../../../lib/storage';
 import { connectAccount } from '../accounts';
